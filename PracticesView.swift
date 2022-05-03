@@ -20,7 +20,7 @@ struct PracticesView: View {
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
             VStack{
-                Text("There are lots of mindful exercices, such as:")
+                Text("There are lots of mindful exercises, such as:")
                     .font(.custom("Verdana", size: 55))
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 0.258))
@@ -134,7 +134,7 @@ struct PracticesView: View {
                             Spacer()
                         }
                         HStack{
-                            Text("Placing the attention on one thing at a time, recognizing distractions whie being aware.")
+                            Text("Placing the attention on one thing at a time, recognizing distractions while being aware.")
                                 .font(.custom("Verdana", size: 35))
                                 .fontWeight(.regular)
                                 .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 0.258))
