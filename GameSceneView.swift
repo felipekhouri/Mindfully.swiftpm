@@ -196,7 +196,7 @@ class GameScene: SKScene {
         }
         else{
             guard let touch = touches.first else {
-                print("tem touche nenhum aqui")
+                print("no touch")
                 return
             }
             let location = touch.location(in: self)
